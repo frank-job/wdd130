@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frank Co-operation - About Us</title>
+  <link rel="stylesheet" href="styles/rafting.css">
+
+  <!-- ✅ Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+       <img src="images/frank-log.png" alt="Frank Co-operation Logo" class="logo" />
+      <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+<main>
+  <div class="hero">
+  <img src="images/rafting60.jpg" alt="Rafting background" />
+
+  <h1>Jinja Rafting Camp Site</h1>
+
+  <article>
+    <p>
+      Inspire bold thinking, foster integrity, and drive purposeful action through
+      collaborative innovation and unwavering commitment...
+    </p>
+    <img src="images/rafting10.jpg" alt="Nile site" />
+  </article>
+</div>
+
+<section>
+      <h2>History</h2>
+      <p>Founded in 2015, Jinja Rafting site started with one raft and a dream. Over the years, we've grown into a full-fledged rafting company focused on safety, excitement, and unforgettable river journeys.</p>
+    </section>
+
+    <section>
+      <h2>Adventure Awaits You</h2>
+      <img src="images/rafting 1.jpg" alt="Adventure 1" />
+      <p>happiness is all about nature come one come all and enjoy </p>
+      <img src="images/rafting26.jpg" alt="Adventure 2" />
+      <p>we are here to make your dreams come true</p>
+      <img src="images/rafting 3.jpg" alt="Adventure 3" />
+      <p>we make your like easy and enjoyable</p>
+      <img src="images/rafting4.jpg" alt="Adventure 4" />
+      <p> all in all welcome to Jinja Rafting site</p>
+      <img src="images/rafting29.jpg" alt="Adventure 5" />
+      <p>Come see how waters of the nile move run and many others</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Jinja Rafting Camp Site | 2025: Frank-Job</p>
+    <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook" /></a>
+    <a href="https://instagram.com"><img src="images/instagram.svg" alt="Instagram" /></a>
+    <a href="https://twitter.com"><img src="images/twitter-x.svg" alt="Twitter" /></a>
+  </footer>
+</body>
+</html>
