@@ -1,19 +1,26 @@
 :root {
-  --primary-color: #055a05; /* forest green */
-  --secondary-color: #f4a261; /* warm sand */
-  --accent1-color: #264653; /* dark slate blue */
-  --accent2-color: #e9c46a; /* light golden yellow */
-  --heading-font: "Merriweather Sans", sans-serif;
-  --body-font: "Lato", sans-serif;
+  --heading-background-color: #f06;
+  --heading-text-color: #333;
+  --heading-font: 'Montserrat', Helvetica, sans-serif;
+  --padding: 1rem;
+  --border: 1px solid rgb(0 0 0 / 0.1);
 }
 
-img.logo {
-  display: block;
-  margin: 0 auto;
-  width: 20rem;
-  height: 45;
-  padding-top: 20px;
+/* Some example variable use in the declarations. */
+
+h1 {
+  background-color: var(--heading-background-color);
+  color: var(--heading-text-color);
+  font-family: var(--heading-font);
+  padding: var(--padding);
 }
+
+aside {
+  margin: 10px auto;
+  padding: var(--padding);
+  box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
+}
+
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
