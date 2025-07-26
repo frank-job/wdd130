@@ -1,0 +1,365 @@
+
+:root {
+  --primary-color: #238A00;
+  --secondary-color: #00FFFB;
+  --accent1-color: #EA00FF;
+  --accent2-color: #E6AE06;
+  --heading-font: "Oswald", "AncizarSerif-Black", serif;
+  --body-font: "Montserrat", "Roboto", sans-serif;
+  --text-color: #1b1b1b;
+  --background-color: #f0f8f8; /* Light off-white background */
+}
+
+
+/* Some example variable use in the declarations. */
+
+
+h1 {
+
+  background-color: var(--heading-background-color);
+
+  color: var(--heading-text-color);
+
+  font-family: var(--heading-font);
+
+  padding: var(--padding);
+
+}
+
+
+aside {
+
+  margin: 10px auto;
+
+  padding: var(--padding);
+
+  box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
+
+}
+
+
+header {
+
+  background-color: var(--primary-color);
+
+  color: var(--accent2-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  border-bottom: 4px solid var(--secondary-color);
+
+
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+  /* Adjust spacing between items */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+
+/* Body and Layout */
+
+body {
+
+  font-family: var(--body-font);
+
+  color: var(--text-color);
+
+
+
+}
+
+
+header,
+main,
+footer {
+
+  width: 840px;
+
+  margin: 0 auto;
+
+}
+
+
+h1,
+h2 {
+
+  font-family: var(--heading-font);
+
+  color: var(--primary-color);
+
+}
+
+nav,
+p,
+section,
+article {
+
+  margin: 16px;
+
+  padding: 8px;
+
+}
+
+
+.socialmedia a {
+
+  text-decoration: none;
+
+}
+
+/* Keep the hero container the same */
+
+.hero {
+
+  position: relative;
+
+  width: 100%;
+
+  max-width: 900px;
+
+  height: 400px;
+
+  margin: 40px auto;
+
+  overflow: hidden;
+
+  border-radius: 12px;
+
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.hero img {
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+  display: block;
+
+}
+
+
+/* Center the heading */
+
+.hero h1 {
+
+  position: absolute;
+
+  top: 30px;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  color: white;
+
+  font-size: 2rem;
+
+  background-color: rgba(0, 0, 0, 0.6);
+
+  padding: 10px 20px;
+
+  border-radius: 8px;
+
+  text-align: center;
+
+}
+
+
+/* Article stretches full width */
+
+.hero article {
+
+  position: absolute;
+
+  top: 100px;
+
+  left: 0;
+
+  right: 0;
+
+  margin: 0 auto;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  background-color: rgba(255, 255, 255, 0.85);
+
+  padding: 20px 30px;
+
+  border-radius: 10px;
+
+  max-width: 90%;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+
+/* Paragraph fills left side */
+
+.hero article p {
+
+  flex: 1;
+
+  margin: 0;
+
+  font-size: 1rem;
+
+  color: #333;
+
+  padding-right: 20px;
+
+}
+
+
+/* Small image on the right */
+
+.hero article img {
+
+  width: 120px;
+
+  height: auto;
+
+  border-radius: 8px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.socialmedia img {
+  width: 32px;
+  height: 32px;
+  margin: 0 8px;
+}
+
+section img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+}
+
+header img {
+  width: 60px;
+  /* Logo size */
+  height: auto;
+}
+
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  /* aligns content to the right */
+  padding: 1rem 2rem;
+  background-color: #E42020;
+  /* consistent with header */
+}
+
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  /* space between icons */
+}
+
+.footer-social img {
+  width: 32px;
+  height: 32px;
+}
+
+/* Style the section heading */
+.gallery h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+/* Horizontal flow of images */
+.image-row {
+  display: flex;
+  flex-wrap: nowrap;
+  /* Prevent wrapping to next line */
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+/* Individual figure setup */
+.image-row figure {
+  flex: 0 0 auto;
+  width: 280px;
+  text-align: center;
+}
+
+.image-row img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.history-layout {
+  display: flex;
+  flex-direction: row;
+  /* Ensures horizontal layout */
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  /* Prevents elements from stacking unless forced */
+  gap: 20px;
+}
+
+.history-layout .left,
+.history-layout .right {
+  flex: 1 1 0;
+  min-width: 200px;
+  /* Prevents shrinking too small */
+}
+
+.history-layout .center img {
+  width: 280px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+  /* Ensures image doesn’t collapse */
+}
+
+section h2 {
+  text-align: center;
+}
