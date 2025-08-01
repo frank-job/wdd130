@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jinja rafting site | contact  </title>
-    <meta name="description" content="meet us and ask question for help.">
-    <meta name="author" content="frank-job">
+    <title>Contact Page| Jinja  Rafting site</title>
+    <meta name="description" content="This is Contact us page for Rafting website.">
+    <meta name="author" content="Yakan Frank">
     <link rel="stylesheet" href="styles/rafting.css">
 
     <!-- ✅ Google Fonts -->
@@ -48,19 +48,20 @@
 
     <!-- Purpose Selection -->
                  <p>Purpose of your message:</p>
-                <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
-                <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
-                <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label><br><br>
+                    <label for="general"><input type="radio" id="general" name="purpose" value="general" required> General Inquiry</label><br>
+                    <label for="reservation"><input type="radio" id="reservation" name="purpose" value="reservation"> Reservation Question</label><br>
+                    <label for="suggestion"><input type="radio" id="suggestion" name="purpose" value="suggestion"> Website Suggestion</label><br><br>
+
 
     <!-- Message Textarea -->
                 <label for="message">Your Message:</label><br>
                 <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
 
     <!-- Newsletter Subscription -->
-               <label><input type="checkbox" name="subscribe" value="yes"> Please subscribe me to the monthly newsletter</label><br><br>
+               <input type="checkbox" name="subscribe" value="yes">
 
     <!-- Submit Button -->
-               <button type="submit" class="form-submit">Send Message</button>
+               <label for="subscribe">Please subscribe me to the monthly Newsletter</label>
 
   </fieldset>
 </form>
@@ -76,12 +77,15 @@
                     <figure>
                         <img src="images/employee2.webp" alt="Employee 2">
                         <figcaption>Jane Doe - Safety Officer</figcaption>
-                    <figure>
+                    </figure>
+                    </figure>
+                    </div>
+                
                         <img src="images/employee3.webp" alt="Employee 3">
                         <figcaption>John Smith - Rafting Guide</figcaption>
                     </figure>
-                </div>
-            </div>
+            
+            
             </section>
         </section>
                 
@@ -153,7 +157,6 @@
                 <figure>
                     <img src="images/rafting60.webp" alt="Rafting in Uganda">
                     <figcaption>Welcome to jinja for rafting</figcaption>
-                    </figcaption>
                 </figure>
             </div>
         </section>
