@@ -1,0 +1,194 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+    background-color: #fff;
+    position: relative;
+}
+
+/* Navigation styling */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #e0e0e0;
+}
+
+/* Profile image styling */
+.profile-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 3rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Section styling */
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.skills ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+}
+
+/* Contact section */
+.contact a {
+    display: inline-block;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0077cc;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact a:hover {
+    background-color: #005fa3;
+}
+.about-me {
+    background-color: #e3f2fd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-me h2 {
+    color: #0d47a1;
+}
+
+.about-me p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+
+.call-to-action {
+    background: radial-gradient(circle at center, #ffe0ec, #f8bbd0);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 50%;
+    width: 80%;
+    margin: 2rem auto;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
+}
+
+.circle-text h2 {
+    color: #880e4f;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.circle-text p {
+    color: #4a148c;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #f06292;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ec407a;
+}
+
+
+.contact-me {
+    background-color: #fff3e0;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-me h2 {
+    text-align: center;
+    color: #e65100;
+    margin-bottom: 1rem;
+}
+
+.contact-me p {
+    text-align: center;
+    color: #6d4c41;
+    margin-bottom: 2rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    margin-bottom: 0.5rem;
+    color: #4e342e;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.8rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ffccbc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #ff7043;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #f4511e;
+}
+
+
